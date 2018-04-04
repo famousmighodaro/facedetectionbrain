@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "clarifai": "^2.6.0",
+    "cors": "^2.8.4",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-particles-js": "^2.1.1",
