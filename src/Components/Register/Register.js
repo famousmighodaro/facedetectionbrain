@@ -25,7 +25,7 @@ class Register extends Component {
 	}
 
 	onRegisterButton =()=>{
-		 fetch('http://localhost:4000/register', {
+		 fetch('https://pure-waters-42759.herokuapp.com/register', {
 		 	method: 'post',
 		 	headers:{'Content-type':'application/json'},
 		 	body:JSON.stringify({
